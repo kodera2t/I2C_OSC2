@@ -1,0 +1,689 @@
+Archive member included because of file (symbol)
+
+/Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(chip_8xx.o)
+                              ./src/osc810.o (SystemCoreClock)
+/Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+                              /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(chip_8xx.o) (Chip_Clock_GetSystemClockRate)
+/Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_8xx.o)
+                              ./src/osc810.o (Chip_SCT_Init)
+/Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_pwm_8xx.o)
+                              ./src/osc810.o (Chip_SCTPWM_SetOutPin)
+/Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(swm_8xx.o)
+                              ./src/osc810.o (Chip_SWM_MovablePinAssign)
+/Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sysinit_8xx.o)
+                              ./src/sysinit.o (Chip_SystemInit)
+/Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(syscon_8xx.o)
+                              /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sysinit_8xx.o) (Chip_SYSCTL_PowerDown)
+/Applications/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+                              ./src/cr_startup_lpc8xx.o (__main)
+/Applications/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+                              ./src/osc810.o (__aeabi_uidiv)
+
+Allocating common symbols
+Common symbol       size              file
+
+sleeping            0x1               ./src/mrt.o
+SystemCoreClock     0x4               /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(chip_8xx.o)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 ./src/cr_startup_lpc8xx.o
+ .data          0x0000000000000000        0x0 ./src/cr_startup_lpc8xx.o
+ .bss           0x0000000000000000        0x0 ./src/cr_startup_lpc8xx.o
+ .text          0x0000000000000000        0x0 ./src/crp.o
+ .data          0x0000000000000000        0x0 ./src/crp.o
+ .bss           0x0000000000000000        0x0 ./src/crp.o
+ .crp           0x0000000000000000        0x4 ./src/crp.o
+ .text          0x0000000000000000        0x0 ./src/mrt.o
+ .data          0x0000000000000000        0x0 ./src/mrt.o
+ .bss           0x0000000000000000        0x0 ./src/mrt.o
+ .text.Chip_MRT_SetDisabled
+                0x0000000000000000       0x1c ./src/mrt.o
+ .text.mrtRepeat
+                0x0000000000000000       0x34 ./src/mrt.o
+ .text.mrtRepeatStart
+                0x0000000000000000       0x14 ./src/mrt.o
+ .text.mrtRepeatStop
+                0x0000000000000000       0x14 ./src/mrt.o
+ .text.mrtWait  0x0000000000000000       0x20 ./src/mrt.o
+ .text.mrtSetupSleep
+                0x0000000000000000       0x18 ./src/mrt.o
+ .text.mrtSleep
+                0x0000000000000000       0x38 ./src/mrt.o
+ .text          0x0000000000000000        0x0 ./src/mtb.o
+ .data          0x0000000000000000        0x0 ./src/mtb.o
+ .bss           0x0000000000000000        0x0 ./src/mtb.o
+ .text          0x0000000000000000        0x0 ./src/osc810.o
+ .data          0x0000000000000000        0x0 ./src/osc810.o
+ .bss           0x0000000000000000        0x0 ./src/osc810.o
+ .text          0x0000000000000000        0x0 ./src/sysinit.o
+ .data          0x0000000000000000        0x0 ./src/sysinit.o
+ .bss           0x0000000000000000        0x0 ./src/sysinit.o
+ .text          0x0000000000000000        0x0 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(chip_8xx.o)
+ .data          0x0000000000000000        0x0 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(chip_8xx.o)
+ .bss           0x0000000000000000        0x0 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(chip_8xx.o)
+ .text          0x0000000000000000        0x0 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+ .data          0x0000000000000000        0x0 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+ .bss           0x0000000000000000        0x0 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+ .text.Chip_SYSCTL_AssertPeriphReset
+                0x0000000000000000       0x38 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+ .text.Chip_SYSCTL_DeassertPeriphReset
+                0x0000000000000000       0x34 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+ .text.Chip_SYSCTL_PeriphReset
+                0x0000000000000000       0x28 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+ .text.Chip_Clock_SetUARTClockDiv
+                0x0000000000000000       0x1c /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+ .text.Chip_Clock_GetUARTClockDiv
+                0x0000000000000000       0x1c /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+ .text.Chip_SYSCTL_SetUSARTFRGDivider
+                0x0000000000000000       0x20 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+ .text.Chip_SYSCTL_GetUSARTFRGDivider
+                0x0000000000000000       0x1c /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+ .text.Chip_SYSCTL_SetUSARTFRGMultiplier
+                0x0000000000000000       0x20 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+ .text.Chip_SYSCTL_GetUSARTFRGMultiplier
+                0x0000000000000000       0x1c /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+ .text.Chip_Clock_SetPLLBypass
+                0x0000000000000000       0x48 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+ .text.Chip_Clock_SetCLKOUTSource
+                0x0000000000000000       0x3c /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+ .text.Chip_Clock_GetUSARTNBaseClockRate
+                0x0000000000000000       0x84 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+ .text.Chip_Clock_SetUSARTNBaseClockRate
+                0x0000000000000000       0x84 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+ .text.Chip_Clock_GetIOCONCLKDIVClockRate
+                0x0000000000000000       0x4c /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+ .text.Chip_Clock_SetIOCONCLKDIV
+                0x0000000000000000       0x38 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+ .text          0x0000000000000000        0x0 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_8xx.o)
+ .data          0x0000000000000000        0x0 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_8xx.o)
+ .bss           0x0000000000000000        0x0 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_8xx.o)
+ .text.Chip_Clock_DisablePeriphClock
+                0x0000000000000000       0x3c /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_8xx.o)
+ .text.Chip_SCT_SetControl
+                0x0000000000000000       0x28 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_8xx.o)
+ .text.Chip_SCT_ClearControl
+                0x0000000000000000       0x28 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_8xx.o)
+ .text.Chip_SCT_DeInit
+                0x0000000000000000       0x14 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_8xx.o)
+ .text.Chip_SCT_SetClrControl
+                0x0000000000000000       0x38 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_8xx.o)
+ .text.Chip_SCT_SetConflictResolution
+                0x0000000000000000       0x50 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_8xx.o)
+ .text          0x0000000000000000        0x0 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_pwm_8xx.o)
+ .data          0x0000000000000000        0x0 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_pwm_8xx.o)
+ .bss           0x0000000000000000        0x0 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_pwm_8xx.o)
+ .text          0x0000000000000000        0x0 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(swm_8xx.o)
+ .data          0x0000000000000000        0x0 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(swm_8xx.o)
+ .bss           0x0000000000000000        0x0 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(swm_8xx.o)
+ .text.Chip_SWM_EnableFixedPin
+                0x0000000000000000       0x40 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(swm_8xx.o)
+ .text.Chip_SWM_DisableFixedPin
+                0x0000000000000000       0x3c /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(swm_8xx.o)
+ .text.Chip_SWM_FixedPinEnable
+                0x0000000000000000       0x38 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(swm_8xx.o)
+ .text          0x0000000000000000        0x0 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sysinit_8xx.o)
+ .data          0x0000000000000000        0x0 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sysinit_8xx.o)
+ .bss           0x0000000000000000        0x0 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sysinit_8xx.o)
+ .text.Chip_SetupXtalClocking
+                0x0000000000000000       0x54 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sysinit_8xx.o)
+ .text          0x0000000000000000        0x0 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(syscon_8xx.o)
+ .data          0x0000000000000000        0x0 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(syscon_8xx.o)
+ .bss           0x0000000000000000        0x0 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(syscon_8xx.o)
+ .text.Chip_SYSCTL_SetDeepSleepPD
+                0x0000000000000000       0x28 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(syscon_8xx.o)
+ .text.Chip_SYSCTL_SetWakeup
+                0x0000000000000000       0x2c /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(syscon_8xx.o)
+ .text          0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+ .data          0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+ .bss           0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+ .text          0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+ .data          0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+ .bss           0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_idivmod
+                0x0000000000000000        0x6 /Applications/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_uldivmod
+                0x0000000000000000       0x5a /Applications/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_ldivmod
+                0x0000000000000000       0x32 /Applications/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_ldiv0
+                0x0000000000000000        0x2 /Applications/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_idivq31+15
+                0x0000000000000000      0x188 /Applications/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash4          0x0000000000000000 0x0000000000001000 xr
+RamLoc1          0x0000000010000000 0x0000000000000400 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD ./src/cr_startup_lpc8xx.o
+LOAD ./src/crp.o
+LOAD ./src/mrt.o
+LOAD ./src/mtb.o
+LOAD ./src/osc810.o
+LOAD ./src/sysinit.o
+LOAD /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a
+START GROUP
+LOAD /Applications/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a
+LOAD /Applications/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a
+END GROUP
+                0x0000000000001000                __top_MFlash4 = 0x1000
+                0x0000000010000400                __top_RamLoc1 = 0x10000400
+
+.text           0x0000000000000000     0x10b4
+ FILL mask 0xff
+                0x0000000000000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x0000000000000000       0xc0 ./src/cr_startup_lpc8xx.o
+                0x0000000000000000                g_pfnVectors
+                0x00000000000000c0                . = ALIGN (0x4)
+                0x00000000000000c0                __section_table_start = .
+                0x00000000000000c0                __data_section_table = .
+                0x00000000000000c0        0x4 LONG 0x10b4 LOADADDR (.data)
+                0x00000000000000c4        0x4 LONG 0x10000000 ADDR (.data)
+                0x00000000000000c8        0x4 LONG 0x0 SIZEOF (.data)
+                0x00000000000000cc                __data_section_table_end = .
+                0x00000000000000cc                __bss_section_table = .
+                0x00000000000000cc        0x4 LONG 0x10000000 ADDR (.bss)
+                0x00000000000000d0        0x4 LONG 0x10 SIZEOF (.bss)
+                0x00000000000000d4                __bss_section_table_end = .
+                0x00000000000000d4                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x00000000000000d4      0x134 ./src/cr_startup_lpc8xx.o
+                0x00000000000000d4                data_init
+                0x0000000000000118                bss_init
+                0x000000000000014c                ResetISR
+                0x00000000000001d8                NMI_Handler
+                0x00000000000001e0                HardFault_Handler
+                0x00000000000001e8                SVC_Handler
+                0x00000000000001f0                PendSV_Handler
+                0x00000000000001f8                SysTick_Handler
+                0x0000000000000200                SPI1_IRQHandler
+                0x0000000000000200                IntDefaultHandler
+                0x0000000000000200                PININT3_IRQHandler
+                0x0000000000000200                UART2_IRQHandler
+                0x0000000000000200                PININT5_IRQHandler
+                0x0000000000000200                PININT4_IRQHandler
+                0x0000000000000200                PININT0_IRQHandler
+                0x0000000000000200                BOD_IRQHandler
+                0x0000000000000200                SCT_IRQHandler
+                0x0000000000000200                I2C_IRQHandler
+                0x0000000000000200                WDT_IRQHandler
+                0x0000000000000200                PININT6_IRQHandler
+                0x0000000000000200                SPI0_IRQHandler
+                0x0000000000000200                PININT2_IRQHandler
+                0x0000000000000200                CMP_IRQHandler
+                0x0000000000000200                PININT1_IRQHandler
+                0x0000000000000200                UART1_IRQHandler
+                0x0000000000000200                UART0_IRQHandler
+                0x0000000000000200                WKT_IRQHandler
+ *(.text*)
+ .text.NVIC_EnableIRQ
+                0x0000000000000208       0x2c ./src/mrt.o
+ .text.Chip_SYSCTL_AssertPeriphReset
+                0x0000000000000234       0x38 ./src/mrt.o
+ .text.Chip_SYSCTL_DeassertPeriphReset
+                0x000000000000026c       0x34 ./src/mrt.o
+ .text.Chip_SYSCTL_PeriphReset
+                0x00000000000002a0       0x28 ./src/mrt.o
+ .text.Chip_Clock_EnablePeriphClock
+                0x00000000000002c8       0x38 ./src/mrt.o
+ .text.Chip_MRT_Init
+                0x0000000000000300       0x14 ./src/mrt.o
+ .text.Chip_MRT_SetInterval
+                0x0000000000000314       0x18 ./src/mrt.o
+ .text.Chip_MRT_SetEnabled
+                0x000000000000032c       0x20 ./src/mrt.o
+ .text.Chip_MRT_SetMode
+                0x000000000000034c       0x2c ./src/mrt.o
+ .text.Chip_MRT_GetIntPending
+                0x0000000000000378       0x14 ./src/mrt.o
+ .text.Chip_MRT_ClearIntPending
+                0x000000000000038c       0x1c ./src/mrt.o
+ .text.MRT_IRQHandler
+                0x00000000000003a8       0x68 ./src/mrt.o
+                0x00000000000003a8                MRT_IRQHandler
+ .text.mrtSetup
+                0x0000000000000410       0x4c ./src/mrt.o
+                0x0000000000000410                mrtSetup
+ .text.mrtOneshot
+                0x000000000000045c       0x2c ./src/mrt.o
+                0x000000000000045c                mrtOneshot
+ .text.NVIC_EnableIRQ
+                0x0000000000000488       0x2c ./src/osc810.o
+ .text.Chip_SYSCTL_SetPinInterrupt
+                0x00000000000004b4       0x20 ./src/osc810.o
+ .text.Chip_Clock_EnablePeriphClock
+                0x00000000000004d4       0x38 ./src/osc810.o
+ .text.Chip_Clock_DisablePeriphClock
+                0x000000000000050c       0x3c ./src/osc810.o
+ .text.Chip_IOCON_PinEnableInputInverted
+                0x0000000000000548       0x2c ./src/osc810.o
+ .text.Chip_SWM_DisableFixedPin
+                0x0000000000000574       0x3c ./src/osc810.o
+ .text.Chip_PININT_SetPinModeEdge
+                0x00000000000005b0       0x28 ./src/osc810.o
+ .text.Chip_PININT_EnableIntHigh
+                0x00000000000005d8       0x18 ./src/osc810.o
+ .text.Chip_PININT_EnableIntLow
+                0x00000000000005f0       0x18 ./src/osc810.o
+ .text.Chip_PININT_ClearIntStatus
+                0x0000000000000608       0x18 ./src/osc810.o
+ .text.Chip_GPIO_SetPortMask
+                0x0000000000000620       0x2c ./src/osc810.o
+ .text.Chip_GPIO_GetMaskedPortValue
+                0x000000000000064c       0x28 ./src/osc810.o
+ .text.Chip_SCT_SetMatchReload
+                0x0000000000000674       0x28 ./src/osc810.o
+ .text.Chip_SCT_ClearControl
+                0x000000000000069c       0x28 ./src/osc810.o
+ .text.Chip_SCTPWM_GetTicksPerCycle
+                0x00000000000006c4       0x18 ./src/osc810.o
+ .text.Chip_SCTPWM_PercentageToTicks
+                0x00000000000006dc       0x30 ./src/osc810.o
+ .text.Chip_SCTPWM_SetDutyCycle
+                0x000000000000070c       0x2c ./src/osc810.o
+ .text.Chip_SCTPWM_Init
+                0x0000000000000738       0x18 ./src/osc810.o
+ .text.Chip_SCTPWM_Start
+                0x0000000000000750       0x20 ./src/osc810.o
+ .text.changeFreq
+                0x0000000000000770       0x5c ./src/osc810.o
+                0x0000000000000770                changeFreq
+ .text.PININT7_IRQHandler
+                0x00000000000007cc       0x3c ./src/osc810.o
+                0x00000000000007cc                PININT7_IRQHandler
+ .text.main     0x0000000000000808       0xf8 ./src/osc810.o
+                0x0000000000000808                main
+ .text.SystemInit
+                0x0000000000000900        0xc ./src/sysinit.o
+                0x0000000000000900                SystemInit
+ .text.SystemCoreClockUpdate
+                0x000000000000090c       0x18 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(chip_8xx.o)
+                0x000000000000090c                SystemCoreClockUpdate
+ .text.Chip_Clock_GetMainOscRate
+                0x0000000000000924       0x14 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+ .text.Chip_Clock_GetIntOscRate
+                0x0000000000000938       0x10 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+ .text.Chip_Clock_GetExtClockInRate
+                0x0000000000000948       0x14 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+ .text.Chip_Clock_GetWDTLFORate
+                0x000000000000095c       0x48 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+ .text.Chip_Clock_GetPLLFreq
+                0x00000000000009a4       0x24 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+ .text.Chip_Clock_SetSystemPLLSource
+                0x00000000000009c8       0x2c /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+                0x00000000000009c8                Chip_Clock_SetSystemPLLSource
+ .text.Chip_Clock_SetMainClockSource
+                0x00000000000009f4       0x2c /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+                0x00000000000009f4                Chip_Clock_SetMainClockSource
+ .text.Chip_Clock_GetWDTOSCRate
+                0x0000000000000a20       0x20 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+                0x0000000000000a20                Chip_Clock_GetWDTOSCRate
+ .text.Chip_Clock_GetSystemPLLInClockRate
+                0x0000000000000a40       0x50 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+                0x0000000000000a40                Chip_Clock_GetSystemPLLInClockRate
+ .text.Chip_Clock_GetSystemPLLOutClockRate
+                0x0000000000000a90       0x2c /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+                0x0000000000000a90                Chip_Clock_GetSystemPLLOutClockRate
+ .text.Chip_Clock_GetMainClockRate
+                0x0000000000000abc       0x64 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+                0x0000000000000abc                Chip_Clock_GetMainClockRate
+ .text.Chip_Clock_GetSystemClockRate
+                0x0000000000000b20       0x28 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+                0x0000000000000b20                Chip_Clock_GetSystemClockRate
+ .text.Chip_SYSCTL_AssertPeriphReset
+                0x0000000000000b48       0x38 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_8xx.o)
+ .text.Chip_SYSCTL_DeassertPeriphReset
+                0x0000000000000b80       0x34 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_8xx.o)
+ .text.Chip_SYSCTL_PeriphReset
+                0x0000000000000bb4       0x28 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_8xx.o)
+ .text.Chip_Clock_EnablePeriphClock
+                0x0000000000000bdc       0x38 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_8xx.o)
+ .text.Chip_SCT_Init
+                0x0000000000000c14       0x1c /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_8xx.o)
+                0x0000000000000c14                Chip_SCT_Init
+ .text.Chip_SCT_Config
+                0x0000000000000c30       0x18 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_pwm_8xx.o)
+ .text.Chip_SCT_SetMatchCount
+                0x0000000000000c48       0x28 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_pwm_8xx.o)
+ .text.Chip_SCT_SetMatchReload
+                0x0000000000000c70       0x28 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_pwm_8xx.o)
+ .text.Chip_SCT_SetControl
+                0x0000000000000c98       0x28 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_pwm_8xx.o)
+ .text.Chip_SCTPWM_Stop
+                0x0000000000000cc0       0x30 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_pwm_8xx.o)
+ .text.Chip_SCTPWM_SetOutPin
+                0x0000000000000cf0       0xb4 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_pwm_8xx.o)
+                0x0000000000000cf0                Chip_SCTPWM_SetOutPin
+ .text.Chip_SCTPWM_SetRate
+                0x0000000000000da4       0x70 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_pwm_8xx.o)
+                0x0000000000000da4                Chip_SCTPWM_SetRate
+ .text.Chip_SWM_MovablePinAssign
+                0x0000000000000e14       0x64 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(swm_8xx.o)
+                0x0000000000000e14                Chip_SWM_MovablePinAssign
+ .text.Chip_Clock_SetupSystemPLL
+                0x0000000000000e78       0x34 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sysinit_8xx.o)
+ .text.Chip_Clock_IsSystemPLLLocked
+                0x0000000000000eac       0x1c /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sysinit_8xx.o)
+ .text.Chip_Clock_SetSysClockDiv
+                0x0000000000000ec8       0x18 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sysinit_8xx.o)
+ .text.Chip_FMC_SetFLASHAccess
+                0x0000000000000ee0       0x2c /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sysinit_8xx.o)
+ .text.Chip_SetupIrcClocking
+                0x0000000000000f0c       0x4c /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sysinit_8xx.o)
+                0x0000000000000f0c                Chip_SetupIrcClocking
+ .text.Chip_SystemInit
+                0x0000000000000f58        0xc /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sysinit_8xx.o)
+                0x0000000000000f58                Chip_SystemInit
+ .text.Chip_SYSCTL_PowerDown
+                0x0000000000000f64       0x44 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(syscon_8xx.o)
+                0x0000000000000f64                Chip_SYSCTL_PowerDown
+ .text.Chip_SYSCTL_PowerUp
+                0x0000000000000fa8       0x48 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(syscon_8xx.o)
+                0x0000000000000fa8                Chip_SYSCTL_PowerUp
+ .text.__weak_main
+                0x0000000000000ff0        0x8 /Applications/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+                0x0000000000000ff0                __main
+                0x0000000000000ff0                __weak_main
+ .text.__aeabi_division_uidivmod
+                0x0000000000000ff8       0x72 /Applications/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+                0x0000000000000ff8                __aeabi_uidiv
+                0x0000000000000ff8                __aeabi_uidivmod
+ .text.__aeabi_division_idiv0
+                0x000000000000106a        0x2 /Applications/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+                0x000000000000106a                __aeabi_idiv0
+ *(.rodata .rodata.* .constdata .constdata.*)
+ .rodata.OscRateIn
+                0x000000000000106c        0x4 ./src/sysinit.o
+                0x000000000000106c                OscRateIn
+ .rodata.ExtRateIn
+                0x0000000000001070        0x4 ./src/sysinit.o
+                0x0000000000001070                ExtRateIn
+ .rodata.wdtOSCRate
+                0x0000000000001074       0x40 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+                0x00000000000010b4                . = ALIGN (0x4)
+
+.glue_7         0x00000000000010b4        0x0
+ .glue_7        0x0000000000000000        0x0 linker stubs
+
+.glue_7t        0x00000000000010b4        0x0
+ .glue_7t       0x0000000000000000        0x0 linker stubs
+
+.vfp11_veneer   0x00000000000010b4        0x0
+ .vfp11_veneer  0x0000000000000000        0x0 linker stubs
+
+.v4_bx          0x00000000000010b4        0x0
+ .v4_bx         0x0000000000000000        0x0 linker stubs
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00000000000010b4                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00000000000010b4                __exidx_end = .
+                0x00000000000010b4                _etext = .
+
+.mtb_buffer_default
+ *(.mtb*)
+
+.uninit_RESERVED
+                0x0000000010000000        0x0
+ *(.bss.$RESERVED*)
+                0x0000000010000000                . = ALIGN (0x4)
+                0x0000000010000000                _end_uninit_RESERVED = .
+
+.data           0x0000000010000000        0x0 load address 0x00000000000010b4
+ FILL mask 0xff
+                0x0000000010000000                _data = .
+ *(vtable)
+ *(.data*)
+                0x0000000010000000                . = ALIGN (0x4)
+                0x0000000010000000                _edata = .
+
+.bss            0x0000000010000000       0x10 load address 0x00000000000010b4
+                0x0000000010000000                _bss = .
+ *(.bss*)
+ .bss.pfRepeat  0x0000000010000000        0x4 ./src/mrt.o
+                0x0000000010000000                pfRepeat
+ .bss.pfOneshot
+                0x0000000010000004        0x4 ./src/mrt.o
+                0x0000000010000004                pfOneshot
+ *(COMMON)
+ COMMON         0x0000000010000008        0x1 ./src/mrt.o
+                0x0000000010000008                sleeping
+ *fill*         0x0000000010000009        0x3 00
+ COMMON         0x000000001000000c        0x4 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(chip_8xx.o)
+                0x000000001000000c                SystemCoreClock
+                0x0000000010000010                . = ALIGN (0x4)
+                0x0000000010000010                _ebss = .
+                0x0000000010000010                PROVIDE (end, .)
+
+.noinit         0x0000000010000010        0x0 load address 0x00000000000010b4
+                0x0000000010000010                _noinit = .
+ *(.noinit*)
+                0x0000000010000010                . = ALIGN (0x4)
+                0x0000000010000010                _end_noinit = .
+                0x0000000010000010                PROVIDE (_pvHeapStart, .)
+                0x0000000010000400                PROVIDE (_vStackTop, (__top_RamLoc1 - 0x0))
+OUTPUT(osc810.axf elf32-littlearm)
+
+.debug_info     0x0000000000000000     0x5735
+ .debug_info    0x0000000000000000      0x24e ./src/cr_startup_lpc8xx.o
+ .debug_info    0x000000000000024e       0x48 ./src/crp.o
+ .debug_info    0x0000000000000296      0xc31 ./src/mrt.o
+ .debug_info    0x0000000000000ec7       0x29 ./src/mtb.o
+ .debug_info    0x0000000000000ef0     0x1643 ./src/osc810.o
+ .debug_info    0x0000000000002533       0xe5 ./src/sysinit.o
+ .debug_info    0x0000000000002618       0xfa /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(chip_8xx.o)
+ .debug_info    0x0000000000002712      0xb50 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+ .debug_info    0x0000000000003262      0xd6a /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_8xx.o)
+ .debug_info    0x0000000000003fcc      0x865 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_pwm_8xx.o)
+ .debug_info    0x0000000000004831      0x37f /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(swm_8xx.o)
+ .debug_info    0x0000000000004bb0      0x65d /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sysinit_8xx.o)
+ .debug_info    0x000000000000520d      0x528 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(syscon_8xx.o)
+
+.debug_abbrev   0x0000000000000000      0xe79
+ .debug_abbrev  0x0000000000000000       0xc7 ./src/cr_startup_lpc8xx.o
+ .debug_abbrev  0x00000000000000c7       0x39 ./src/crp.o
+ .debug_abbrev  0x0000000000000100      0x1f8 ./src/mrt.o
+ .debug_abbrev  0x00000000000002f8       0x16 ./src/mtb.o
+ .debug_abbrev  0x000000000000030e      0x254 ./src/osc810.o
+ .debug_abbrev  0x0000000000000562       0x79 ./src/sysinit.o
+ .debug_abbrev  0x00000000000005db       0x79 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(chip_8xx.o)
+ .debug_abbrev  0x0000000000000654      0x210 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+ .debug_abbrev  0x0000000000000864      0x186 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_8xx.o)
+ .debug_abbrev  0x00000000000009ea      0x1a4 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_pwm_8xx.o)
+ .debug_abbrev  0x0000000000000b8e      0x108 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(swm_8xx.o)
+ .debug_abbrev  0x0000000000000c96      0x126 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sysinit_8xx.o)
+ .debug_abbrev  0x0000000000000dbc       0xbd /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(syscon_8xx.o)
+
+.debug_loc      0x0000000000000000     0x1794
+ .debug_loc     0x0000000000000000      0x1b0 ./src/cr_startup_lpc8xx.o
+ .debug_loc     0x00000000000001b0      0x450 ./src/mrt.o
+ .debug_loc     0x0000000000000600      0x4b8 ./src/osc810.o
+ .debug_loc     0x0000000000000ab8       0x2c ./src/sysinit.o
+ .debug_loc     0x0000000000000ae4       0x2c /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(chip_8xx.o)
+ .debug_loc     0x0000000000000b10      0x57c /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+ .debug_loc     0x000000000000108c      0x268 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_8xx.o)
+ .debug_loc     0x00000000000012f4      0x188 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_pwm_8xx.o)
+ .debug_loc     0x000000000000147c       0xe0 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(swm_8xx.o)
+ .debug_loc     0x000000000000155c      0x158 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sysinit_8xx.o)
+ .debug_loc     0x00000000000016b4       0xe0 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(syscon_8xx.o)
+
+.debug_aranges  0x0000000000000000      0x498
+ .debug_aranges
+                0x0000000000000000       0x60 ./src/cr_startup_lpc8xx.o
+ .debug_aranges
+                0x0000000000000060       0xc0 ./src/mrt.o
+ .debug_aranges
+                0x0000000000000120       0xc8 ./src/osc810.o
+ .debug_aranges
+                0x00000000000001e8       0x20 ./src/sysinit.o
+ .debug_aranges
+                0x0000000000000208       0x20 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(chip_8xx.o)
+ .debug_aranges
+                0x0000000000000228       0xf0 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+ .debug_aranges
+                0x0000000000000318       0x70 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_8xx.o)
+ .debug_aranges
+                0x0000000000000388       0x50 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_pwm_8xx.o)
+ .debug_aranges
+                0x00000000000003d8       0x38 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(swm_8xx.o)
+ .debug_aranges
+                0x0000000000000410       0x50 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sysinit_8xx.o)
+ .debug_aranges
+                0x0000000000000460       0x38 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(syscon_8xx.o)
+
+.debug_ranges   0x0000000000000000      0x3e8
+ .debug_ranges  0x0000000000000000       0x50 ./src/cr_startup_lpc8xx.o
+ .debug_ranges  0x0000000000000050       0xb0 ./src/mrt.o
+ .debug_ranges  0x0000000000000100       0xb8 ./src/osc810.o
+ .debug_ranges  0x00000000000001b8       0x10 ./src/sysinit.o
+ .debug_ranges  0x00000000000001c8       0x10 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(chip_8xx.o)
+ .debug_ranges  0x00000000000001d8       0xe0 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+ .debug_ranges  0x00000000000002b8       0x60 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_8xx.o)
+ .debug_ranges  0x0000000000000318       0x40 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_pwm_8xx.o)
+ .debug_ranges  0x0000000000000358       0x28 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(swm_8xx.o)
+ .debug_ranges  0x0000000000000380       0x40 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sysinit_8xx.o)
+ .debug_ranges  0x00000000000003c0       0x28 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(syscon_8xx.o)
+
+.debug_line     0x0000000000000000     0x4345
+ .debug_line    0x0000000000000000       0xc1 ./src/cr_startup_lpc8xx.o
+ .debug_line    0x00000000000000c1       0xb3 ./src/crp.o
+ .debug_line    0x0000000000000174      0x76a ./src/mrt.o
+ .debug_line    0x00000000000008de       0x2d ./src/mtb.o
+ .debug_line    0x000000000000090b      0x799 ./src/osc810.o
+ .debug_line    0x00000000000010a4      0x5bd ./src/sysinit.o
+ .debug_line    0x0000000000001661      0x5be /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(chip_8xx.o)
+ .debug_line    0x0000000000001c1f      0x80e /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+ .debug_line    0x000000000000242d      0x685 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_8xx.o)
+ .debug_line    0x0000000000002ab2      0x642 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_pwm_8xx.o)
+ .debug_line    0x00000000000030f4      0x5fd /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(swm_8xx.o)
+ .debug_line    0x00000000000036f1      0x659 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sysinit_8xx.o)
+ .debug_line    0x0000000000003d4a      0x5fb /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(syscon_8xx.o)
+
+.debug_macinfo  0x0000000000000000    0x6cfb4
+ .debug_macinfo
+                0x0000000000000000     0x22a2 ./src/cr_startup_lpc8xx.o
+ .debug_macinfo
+                0x00000000000022a2     0x2338 ./src/crp.o
+ .debug_macinfo
+                0x00000000000045da     0xa408 ./src/mrt.o
+ .debug_macinfo
+                0x000000000000e9e2     0x2256 ./src/mtb.o
+ .debug_macinfo
+                0x0000000000010c38     0xa471 ./src/osc810.o
+ .debug_macinfo
+                0x000000000001b0a9     0xa408 ./src/sysinit.o
+ .debug_macinfo
+                0x00000000000254b1     0xa3be /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(chip_8xx.o)
+ .debug_macinfo
+                0x000000000002f86f     0xa3be /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+ .debug_macinfo
+                0x0000000000039c2d     0xa3be /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_8xx.o)
+ .debug_macinfo
+                0x0000000000043feb     0xa3be /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_pwm_8xx.o)
+ .debug_macinfo
+                0x000000000004e3a9     0xa417 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(swm_8xx.o)
+ .debug_macinfo
+                0x00000000000587c0     0xa3be /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sysinit_8xx.o)
+ .debug_macinfo
+                0x0000000000062b7e     0xa436 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(syscon_8xx.o)
+
+.debug_str      0x0000000000000000     0x1f93
+ .debug_str     0x0000000000000000      0x1ba ./src/cr_startup_lpc8xx.o
+                                        0x1cd (size before relaxing)
+ .debug_str     0x00000000000001ba       0x16 ./src/crp.o
+                                         0xae (size before relaxing)
+ .debug_str     0x00000000000001d0      0xa24 ./src/mrt.o
+                                        0xaf6 (size before relaxing)
+ .debug_str     0x0000000000000bf4        0xd ./src/mtb.o
+                                         0x98 (size before relaxing)
+ .debug_str     0x0000000000000c01      0x8df ./src/osc810.o
+                                       0x10f4 (size before relaxing)
+ .debug_str     0x00000000000014e0       0x11 ./src/sysinit.o
+                                        0x148 (size before relaxing)
+ .debug_str     0x00000000000014f1       0x70 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(chip_8xx.o)
+                                        0x16a (size before relaxing)
+ .debug_str     0x0000000000001561      0x6b8 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+                                        0xb36 (size before relaxing)
+ .debug_str     0x0000000000001c19       0x9f /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_8xx.o)
+                                        0x8b0 (size before relaxing)
+ .debug_str     0x0000000000001cb8       0x7c /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_pwm_8xx.o)
+                                        0x3cc (size before relaxing)
+ .debug_str     0x0000000000001d34       0x98 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(swm_8xx.o)
+                                        0x4ee (size before relaxing)
+ .debug_str     0x0000000000001dcc      0x123 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sysinit_8xx.o)
+                                        0x565 (size before relaxing)
+ .debug_str     0x0000000000001eef       0xa4 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(syscon_8xx.o)
+                                        0x3ea (size before relaxing)
+
+.comment        0x0000000000000000       0x70
+ .comment       0x0000000000000000       0x70 ./src/cr_startup_lpc8xx.o
+                                         0x71 (size before relaxing)
+ .comment       0x0000000000000000       0x71 ./src/crp.o
+ .comment       0x0000000000000000       0x71 ./src/mrt.o
+ .comment       0x0000000000000000       0x71 ./src/mtb.o
+ .comment       0x0000000000000000       0x71 ./src/osc810.o
+ .comment       0x0000000000000000       0x71 ./src/sysinit.o
+ .comment       0x0000000000000000       0x71 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(chip_8xx.o)
+ .comment       0x0000000000000000       0x71 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+ .comment       0x0000000000000000       0x71 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_8xx.o)
+ .comment       0x0000000000000000       0x71 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_pwm_8xx.o)
+ .comment       0x0000000000000000       0x71 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(swm_8xx.o)
+ .comment       0x0000000000000000       0x71 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sysinit_8xx.o)
+ .comment       0x0000000000000000       0x71 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(syscon_8xx.o)
+ .comment       0x0000000000000000       0x71 /Applications/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+
+.ARM.attributes
+                0x0000000000000000       0x2f
+ .ARM.attributes
+                0x0000000000000000       0x31 ./src/cr_startup_lpc8xx.o
+ .ARM.attributes
+                0x0000000000000031       0x31 ./src/crp.o
+ .ARM.attributes
+                0x0000000000000062       0x31 ./src/mrt.o
+ .ARM.attributes
+                0x0000000000000093       0x31 ./src/mtb.o
+ .ARM.attributes
+                0x00000000000000c4       0x31 ./src/osc810.o
+ .ARM.attributes
+                0x00000000000000f5       0x31 ./src/sysinit.o
+ .ARM.attributes
+                0x0000000000000126       0x31 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(chip_8xx.o)
+ .ARM.attributes
+                0x0000000000000157       0x31 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+ .ARM.attributes
+                0x0000000000000188       0x31 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_8xx.o)
+ .ARM.attributes
+                0x00000000000001b9       0x31 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_pwm_8xx.o)
+ .ARM.attributes
+                0x00000000000001ea       0x31 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(swm_8xx.o)
+ .ARM.attributes
+                0x000000000000021b       0x31 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sysinit_8xx.o)
+ .ARM.attributes
+                0x000000000000024c       0x31 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(syscon_8xx.o)
+ .ARM.attributes
+                0x000000000000027d       0x31 /Applications/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+ .ARM.attributes
+                0x00000000000002ae       0x21 /Applications/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+
+.debug_frame    0x0000000000000000      0xe84
+ .debug_frame   0x0000000000000000      0x118 ./src/cr_startup_lpc8xx.o
+ .debug_frame   0x0000000000000118      0x298 ./src/mrt.o
+ .debug_frame   0x00000000000003b0      0x2c8 ./src/osc810.o
+ .debug_frame   0x0000000000000678       0x2c ./src/sysinit.o
+ .debug_frame   0x00000000000006a4       0x2c /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(chip_8xx.o)
+ .debug_frame   0x00000000000006d0      0x354 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(clock_8xx.o)
+ .debug_frame   0x0000000000000a24      0x170 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_8xx.o)
+ .debug_frame   0x0000000000000b94       0xf0 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sct_pwm_8xx.o)
+ .debug_frame   0x0000000000000c84       0x90 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(swm_8xx.o)
+ .debug_frame   0x0000000000000d14       0xe0 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(sysinit_8xx.o)
+ .debug_frame   0x0000000000000df4       0x90 /Users/kodera2t/Documents/LPCXpresso_6.1.4/workspace/lpc_chip_8xx/Debug/liblpc_chip_8xx.a(syscon_8xx.o)

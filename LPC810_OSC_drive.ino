@@ -1,6 +1,5 @@
 #include <Wire.h>
 #define OSC 0x14
-#define LED2 0x15
 int i;
 void setup() {
     Wire.begin() ;

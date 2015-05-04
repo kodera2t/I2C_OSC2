@@ -6,7 +6,7 @@ void setup() {
 }
 
 void loop() {
-  for(i=1;i<50;i++){
+  for(i=1;i<50;i++){//will tune up to 49 kHz ..!
 i2c_write(OSC,i);
 delay(1000);
   }

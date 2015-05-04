@@ -1,9 +1,9 @@
 /*
 ===============================================================================
  Name        : main.c
- Author      : $(author)
- Version     :
- Copyright   : $(copyright)
+ Author      : kodera2t (もへある)
+ Version     : 1.0
+ Copyright   : LGPL
  Description : main definition
 ===============================================================================
 */

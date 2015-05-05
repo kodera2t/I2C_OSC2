@@ -5,8 +5,8 @@ Usage is quite simple, along my arduino sketch,
 
 i2c_write(0x14,5) 
 
-will generate 5 kHz squared-wave and 0x14 is the I2C address of programmed LPC810. (you can change if needed) 
-
+will generate 5 Hz squared-wave and 0x14 is the I2C address of programmed LPC810. (you can change if needed) 
+(data should be given by 2-byte (16bit), meaning up to 65536 Hz)
 The source code and driving arduino sketch of this very cost effective and useful device is fully released on github 
 
 Have fun!

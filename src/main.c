@@ -1,9 +1,9 @@
 /*
 ===============================================================================
  Name        : main.c
- Author      : kodera2t (もへある)
- Version     : 1.0
- Copyright   : LGPL
+ Author      : $(author)
+ Version     :
+ Copyright   : $(copyright)
  Description : main definition
 ===============================================================================
 */
@@ -20,12 +20,14 @@
 
 void changeFreq(uint8_t rxn, uint8_t txn){
 	uint32_t fr;
+	uint32_t dr;
 //	uint32_t sw;
 	if(rxn){
 //		fr=1000*(i2csRxBuf[0]);///frequency inside
-		fr=(i2csRxBuf[1]<<8) | i2csRxBuf[0];
+		fr=(i2csRxBuf[1]<<8) | i2csRxBuf[0]; //frequency
+		dr=i2csRxBuf[2]; //duty ratio
 		Chip_SCTPWM_SetRate(LPC_SCT, fr);
-		Chip_SCTPWM_SetDutyCycle(LPC_SCT, 1, Chip_SCTPWM_PercentageToTicks(LPC_SCT, 50));
+		Chip_SCTPWM_SetDutyCycle(LPC_SCT, 1, Chip_SCTPWM_PercentageToTicks(LPC_SCT, dr));
 		Chip_SCTPWM_Start(LPC_SCT);
 	}
 
@@ -76,7 +78,7 @@ int main(void) {
 
 	//I2C setup
 	i2csSetupCallback(changeFreq);
-	i2csSetup(I2C_ADDR, 2, 0);
+	i2csSetup(I2C_ADDR, 3, 0);
 
 	//SCT setup
 	Chip_SCTPWM_Init(LPC_SCT);

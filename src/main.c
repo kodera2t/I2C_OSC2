@@ -20,7 +20,7 @@
 
 void changeFreq(uint8_t rxn, uint8_t txn){
 	uint32_t fr;
-	uint32_t dr;
+	uint8_t dr;
 //	uint32_t sw;
 	if(rxn){
 //		fr=1000*(i2csRxBuf[0]);///frequency inside
